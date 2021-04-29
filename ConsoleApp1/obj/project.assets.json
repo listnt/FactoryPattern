@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "My_Shapes/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/My_Shapes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/My_Shapes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "My_Shapes/1.0.0": {
+      "type": "project",
+      "path": "../My_Shapes/My_Shapes.csproj",
+      "msbuildProject": "../My_Shapes/My_Shapes.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "My_Shapes >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aidar\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\aidar\\source\\repos\\ConsoleApp2\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\aidar\\source\\repos\\ConsoleApp2\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\aidar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aidar\\source\\repos\\ConsoleApp2\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aidar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\aidar\\source\\repos\\ConsoleApp2\\My_Shapes\\My_Shapes.csproj": {
+              "projectPath": "C:\\Users\\aidar\\source\\repos\\ConsoleApp2\\My_Shapes\\My_Shapes.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

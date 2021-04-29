@@ -1,0 +1,8 @@
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\bin\Debug\netstandard2.0\My_Shapes.deps.json
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\bin\Debug\netstandard2.0\My_Shapes.dll
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\bin\Debug\netstandard2.0\My_Shapes.pdb
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\obj\Debug\netstandard2.0\My_Shapes.csprojAssemblyReference.cache
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\obj\Debug\netstandard2.0\My_Shapes.AssemblyInfoInputs.cache
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\obj\Debug\netstandard2.0\My_Shapes.AssemblyInfo.cs
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\obj\Debug\netstandard2.0\My_Shapes.dll
+C:\Users\aidar\source\repos\ConsoleApp2\My_Shapes\obj\Debug\netstandard2.0\My_Shapes.pdb
