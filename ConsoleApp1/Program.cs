@@ -12,7 +12,7 @@ namespace ConsoleApp1
                 double[] sides = { 13, 5, 12 };
                 var someShape = ClientCode(new ThreeSideFactory(), sides);
                 double[] shapeSides = someShape.Sides;
-                Console.WriteLine("[{0}]", string.Join(", ", shapeSides));
+                //Console.WriteLine("[{0}]", string.Join(", ", shapeSides));
                 Console.WriteLine(Convert.ToString(someShape.Calculate_Area()));
             }
             catch (Exception e)

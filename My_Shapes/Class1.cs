@@ -120,12 +120,12 @@ namespace My_Shapes
             double[] angles=new double[3];
             angles[0] = Math.Acos((sides[1] * sides[1] + sides[2] * sides[2] - sides[0] * sides[0]) / (2 * sides[1] * sides[2]));
             angles[1] = Math.Acos((sides[0] * sides[0] + sides[2] * sides[2] - sides[1] * sides[1]) / (2 * sides[0] * sides[2]));
-            angles[2] = Math.Acos((sides[1] * sides[1] + sides[0] * sides[0] - sides[1] * sides[1]) / (2 * sides[1] * sides[0]));
-            if(angles[0] < 90 && angles[1] < 90 && angles[2]< 90)
+            angles[2] = Math.Acos((sides[1] * sides[1] + sides[0] * sides[0] - sides[2] * sides[2]) / (2 * sides[1] * sides[0]));
+            if (angles[0] < Math.PI/2 && angles[1] < Math.PI / 2 && angles[2] < Math.PI / 2)
             {
                 return new AcuteTriangle(sides[0], sides[1], sides[2]);
             }
-            else if (angles[0] == 90 && angles[1] == 90 && angles[2] == 90)
+            else if (angles[0] == Math.PI / 2 || angles[1] == Math.PI / 2 || angles[2] == Math.PI / 2)
             {
                 return new RightTriangle(sides[0], sides[1], sides[2]);
             }
